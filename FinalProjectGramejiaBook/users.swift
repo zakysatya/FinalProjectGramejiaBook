@@ -7,6 +7,7 @@
 
 import Foundation
 struct User {
+    let email: String
     let username: String
     let password: String
     let role: String // "admin" or "user"
